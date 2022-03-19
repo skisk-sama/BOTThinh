@@ -1,0 +1,27 @@
+[
+      
+          {
+               "id": "1111",
+               "value": "Answer aaa",
+               "userName": "PHAM NGUYEN TRUONG THINH",
+               "userID": "ITITIU15068",
+               "answerCount": 0
+          }
+     ,
+      
+          {
+               "id": "qqqq",
+               "value": "Answer qwe",
+               "userName": "PHAM NGUYEN TRUONG THINH",
+               "userID": "ITITIU15068",
+               "answerCount": 0
+          },
+          {
+               "id": "qqqq",
+               "value": "Answer 4321",
+               "userName": "Tran Thanh Tung",
+               "userID": "tttung",
+               "answerCount": 0
+          }
+     
+]

@@ -1,0 +1,77 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.11",
+    "version": "1.0.0",
+    "id": "{{localSettings.teamsApp.teamsAppId}}",
+    "packageName": "com.microsoft.teams.extension",
+    "developer": {
+        "name": "Teams App, Inc.",
+        "websiteUrl": "{{{localSettings.frontend.tabEndpoint}}}",
+        "privacyUrl": "{{{localSettings.frontend.tabEndpoint}}}/index.html#/privacy",
+        "termsOfUseUrl": "{{{localSettings.frontend.tabEndpoint}}}/index.html#/termsofuse"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "BOTThinh-local-debug",
+        "full": "This field is not used-local-debug"
+    },
+    "description": {
+        "short": "Short description of BOTThinh.",
+        "full": "Full description of BOTThinh."
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+        {
+            "botId": "{{localSettings.bot.botId}}",
+            "scopes": [
+                "personal",
+                "team",
+                "groupchat"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false,
+            "commandLists": [
+                {
+                    "scopes": [
+                        "personal",
+                        "team",
+                        "groupchat"
+                    ],
+                    "commands": [
+                        {
+                            "title": "Welcome",
+                            "description": "Resend welcome card of this Bot"
+                        },
+                        {
+                            "title": "learn",
+                            "description": "Learn about Adaptive Card and Bot Command"
+                        },
+                        {
+                            "title": "help",
+                            "description": "Help card"
+                        },
+                        {
+                            "title": "Question",
+                            "description": "Ask a question"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "composeExtensions": [],
+    "configurableTabs": [],
+    "staticTabs": [],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [],
+    "webApplicationInfo": {
+        "id": "{{localSettings.auth.clientId}}",
+        "resource": "{{{localSettings.auth.applicationIdUris}}}"
+    }
+}

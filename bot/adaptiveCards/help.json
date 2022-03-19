@@ -1,0 +1,20 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+      {
+        "type": "Container",
+        "items": [
+            {
+            "type": "TextBlock",
+            "size": "small",
+            "weight": "Bolder",
+            "text": "Commands: 'Question:' for asking a topic, 'Answer:' for replying the topic, 'End Question' to begin the new topic, 'export' to record into text file",
+            "wrap": true
+            }
+        ]
+        
+      }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.4"
+}

@@ -1,0 +1,23 @@
+{
+    "appName": "BOTThinh",
+    "projectId": "23d48fb7-e02d-4cea-b9e2-2f9b5cfbbc17",
+    "solutionSettings": {
+        "name": "fx-solution-azure",
+        "version": "1.0.0",
+        "hostType": "Azure",
+        "azureResources": [],
+        "capabilities": [
+            "Bot"
+        ],
+        "activeResourcePlugins": [
+            "fx-resource-identity",
+            "fx-resource-bot",
+            "fx-resource-aad-app-for-teams",
+            "fx-resource-local-debug",
+            "fx-resource-appstudio"
+        ]
+    },
+    "version": "2.0.0",
+    "isFromSample": false,
+    "programmingLanguage": "javascript"
+}

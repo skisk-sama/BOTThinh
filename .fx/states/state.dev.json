@@ -1,0 +1,42 @@
+{
+    "solution": {
+        "teamsAppTenantId": "",
+        "resourceNameSuffix": "86a4c8",
+        "resourceGroupName": "BOTThinh-rg",
+        "tenantId": "51984f95-0256-4226-a3ef-b1cd63841323",
+        "subscriptionId": "64c15003-cdaf-4856-9798-31fe7f68ebf3",
+        "subscriptionName": "Azure subscription 1",
+        "location": "East US",
+        "provisionSucceeded": true
+    },
+    "fx-resource-aad-app-for-teams": {
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/a7380202-eb54-415a-9b66-4d9806cfab42",
+        "clientId": "566cfc35-99a6-4f79-9d89-35ccb1b5651e",
+        "objectId": "7c3e6e3f-2f89-4a9a-ab21-bd8550341c97",
+        "oauth2PermissionScopeId": "0a41edc1-d8e9-4ce2-82ed-216078e4a632",
+        "tenantId": "a7380202-eb54-415a-9b66-4d9806cfab42",
+        "applicationIdUris": "api://botid-5d01f7ea-f9d6-4824-985b-12662d98beeb",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}"
+    },
+    "fx-resource-appstudio": {
+        "teamsAppId": "60f665d5-e0fd-482c-af1d-315ed4b10a79"
+    },
+    "fx-resource-bot": {
+        "wayToRegisterBot": "create-new",
+        "botId": "5d01f7ea-f9d6-4824-985b-12662d98beeb",
+        "objectId": "7eb228fa-489d-4828-afcc-4281016ad21b",
+        "skuName": "F1",
+        "siteName": "botthinhdev4eca61bot",
+        "validDomain": "botthinhdev4eca61bot.azurewebsites.net",
+        "appServicePlanName": "botthinhdev4eca61bot",
+        "botWebAppResourceId": "/subscriptions/64c15003-cdaf-4856-9798-31fe7f68ebf3/resourceGroups/BOTThinh-rg/providers/Microsoft.Web/sites/botthinhdev4eca61bot",
+        "siteEndpoint": "https://botthinhdev4eca61bot.azurewebsites.net",
+        "botPassword": "{{fx-resource-bot.botPassword}}"
+    },
+    "fx-resource-identity": {
+        "identityName": "botthinhdev4eca61",
+        "identityResourceId": "/subscriptions/64c15003-cdaf-4856-9798-31fe7f68ebf3/resourceGroups/BOTThinh-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/botthinhdev4eca61",
+        "identityClientId": "0aa386f9-2778-4af7-9300-c1557211ec7a"
+    }
+}
