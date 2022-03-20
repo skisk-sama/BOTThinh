@@ -9,3 +9,5 @@ BOT App for MS Teams in Managing Activities Online In-Class
 5. Go to Teams Group Tab -> Upload appPackage in "Upload a custom app" section of a channel.
 6. Announcement of success will be shown in conversation.
 7. Mention Bot which allow Bot to execute command everytime you send a message. In private chat, you don't need to mention.
+
+Note: To be more specific, please open "PhamNguyenTruongThinh_Thesis" file for more details.
