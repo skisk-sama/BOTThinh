@@ -1,11 +1,12 @@
 # BOTThinh
 BOT App for MS Teams in Managing Activities Online In-Class
 
-1. Install Node.js and Teams Toolkit
-2. Log in Microsoft account on Teams Toolkit 
-3. Start "Debug" or "F5" in VS Code to run file teamsBot.js.
-4. Click "Add" to allow it to be able to work on MS Teams.
-5. Now you can chat with Bot in private chat.
+1. Install Node.js, VS Code, MS Teams.
+2. Install Teams Toolkit extension for VS Code.
+3. Log in Microsoft's account on Teams Toolkit. 
+4. Start "Debug" or "F5" in VS Code to run file teamsBot.js.
+5. Click "Add" to allow it to be able to work on MS Teams.
+6. Now you can chat with Bot in private chat.
 
 4. To add it in a meeting of a group:
 5. Zip app package by Teams Toolkit to upload on a channel for MS Teams.
