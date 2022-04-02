@@ -1,5 +1,6 @@
 # BOTThinh
 BOT App for MS Teams in Managing Activities Online In-Class
+Features: Create questions, create and collect answer, create results for questions, compare result and answer, close questions, print out answer and question, print out ID of question, clear all the functions, store datas into file at local.
 
 1. Install Node.js, VS Code, MS Teams.
 2. Install Teams Toolkit extension for VS Code.
