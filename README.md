@@ -7,7 +7,7 @@ How to apply:
 1. Install Node.js, Visual Studio Code, MS Teams.
 2. Install Teams Toolkit extension for Visual Studio Code.
 3. Log in Microsoft's account on Teams Toolkit. 
-4. Start "Debug" or "F5" in VS Code to run file teamsBot.js.
+4. Start "Debug" or "F5" in VS Code to run file ./bot/teamsBot.js.
 5. Announcement will show up on the browser.
 6. Click "Add" to allow it to be able to work on MS Teams.
 7. Now you can chat with Bot in private chat.
