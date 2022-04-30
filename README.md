@@ -14,7 +14,7 @@ How to apply:
 
 4. To add it in a meeting of a group:
 5. Zip app package by Teams Toolkit to upload on a channel for MS Teams.
-6. Go to Teams Group Tab -> More options (3 dots) -> Manage team -> Apps tab -> Upload appPackage by "Upload a custom app" button (./build/appPackage/appPackage.local).
+6. Go to Teams Group Tab -> More options (3 dots) -> Manage team -> Apps tab -> Upload appPackage by "Upload a custom app" button (PATH: ./build/appPackage/appPackage.local).
 7. Announcement of success will be shown in conversation.
 8. Mention Bot (tag @"Bot's name" "command") which allow Bot to execute command everytime you send a message. In private chat, you don't need to mention.
 
